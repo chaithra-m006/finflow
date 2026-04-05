@@ -38,12 +38,6 @@ Balance Trend: A time-based line chart visualizing financial movement.
 Expense Breakdown: A categorical pie chart showing where money is spent.
 
 Automated Insights: Dynamic logic that identifies the highest spending category and provides a textual summary of financial health.
-<img width="1920" height="1128" alt="Summary cards and Insights" src="https://github.com/user-attachments/assets/c2692b5c-7cfd-4637-929a-91fda66ea1fd" />
-<img width="1920" height="1128" alt="Table in dark theme" src="https://github.com/user-attachments/assets/42e9ab80-c80f-477b-8739-8feacdbecf46" />
-<img width="1920" height="1137" alt="Table" src="https://github.com/user-attachments/assets/faf6daab-d4d8-4ee8-9338-5ef30a46d498" />
-<img width="1920" height="1098" alt="Chart and cards" src="https://github.com/user-attachments/assets/101ea3e2-79ef-4b7b-a4cd-598a5d67e90d" />
-
-
 2. Transaction Management 
 Search & Filter: Real-time filtering by category name and transaction type (Income/Expense).
 
