@@ -1,4 +1,4 @@
-FinFlow | Modern Financial Dashboard
+<img width="1920" height="1200" alt="Screenshot (204)" src="https://github.com/user-attachments/assets/e99cc326-5880-464e-874d-55e07fd0b7c8" />FinFlow | Modern Financial Dashboard
 
 FinFlow is a high-performance, transparent "Glassmorphism" dashboard built with React and Tailwind CSS v4. It allows users to track their financial health, visualize spending patterns, and manage transactions with a role-based interface.
 
@@ -19,15 +19,15 @@ View in Browser:
 Open http://localhost:5173 to see the dashboard.
 
 3. Tech Stack
-# Framework: React (Vite)
+Framework: React (Vite)
 
-# Styling: Tailwind CSS v4 (Glassmorphism & Dark Mode)
+Styling: Tailwind CSS v4 (Glassmorphism & Dark Mode)
 
-# Charts: Recharts (Responsive Line & Pie charts)
+Charts: Recharts (Responsive Line & Pie charts)
 
-# Icons: Lucide-React
+Icons: Lucide-React
 
-# State Management: React Hooks (useState, useMemo, useEffect)
+State Management: React Hooks (useState, useMemo, useEffect)
 
 ~~~ Core Features
 1. Dashboard Analytics 
@@ -38,6 +38,11 @@ Balance Trend: A time-based line chart visualizing financial movement.
 Expense Breakdown: A categorical pie chart showing where money is spent.
 
 Automated Insights: Dynamic logic that identifies the highest spending category and provides a textual summary of financial health.
+<img width="1920" height="1128" alt="Summary cards and Insights" src="https://github.com/user-attachments/assets/c2692b5c-7cfd-4637-929a-91fda66ea1fd" />
+<img width="1920" height="1128" alt="Table in dark theme" src="https://github.com/user-attachments/assets/42e9ab80-c80f-477b-8739-8feacdbecf46" />
+<img width="1920" height="1137" alt="Table" src="https://github.com/user-attachments/assets/faf6daab-d4d8-4ee8-9338-5ef30a46d498" />
+<img width="1920" height="1098" alt="Chart and cards" src="https://github.com/user-attachments/assets/101ea3e2-79ef-4b7b-a4cd-598a5d67e90d" />
+
 
 2. Transaction Management 
 Search & Filter: Real-time filtering by category name and transaction type (Income/Expense).
@@ -62,7 +67,7 @@ Vibrancy: Strategic use of background color blobs to provide depth behind the fr
 
 Adaptive Theme: Full support for Light and Dark modes using CSS variables and Tailwind's dark mode selectors.
 
-# Approach & Logic
+~~~ Approach & Logic
 Data Flow: Data is managed in a central state within App.jsx. Computed values (like total balance or pie chart groupings) are wrapped in useMemo to ensure they only recalculate when the transaction list actually changes, optimizing performance.
 
 Responsiveness: The grid system uses sm, md, and lg breakpoints to ensure the dashboard looks great on mobile, tablets, and wide-screen monitors.
