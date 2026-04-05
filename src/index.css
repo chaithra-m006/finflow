@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    /* --- Light Theme Colors --- */
+    --background: #f0f4f8; /* Very light cool gray */
+    --text-primary: #1a202c; /* Near-black */
+    --text-secondary: #718096; /* Medium gray */
+    
+    /* Transparent Card Styles */
+    --card-bg: rgba(255, 255, 255, 0.5); /* Semi-transparent white */
+    --card-border: rgba(255, 255, 255, 0.18);
+    
+    /* Vibrant Accent Colors (Finance-appropriate) */
+    --color-income: #10b981; /* Emerald green */
+    --color-expense: #ef4444; /* Red */
+    --color-balance: #3b82f6; /* Blue */
+    --chart-grid: rgba(0, 0, 0, 0.05);
+  }
+
+  .dark {
+    /* --- Dark Theme Colors --- */
+    --background: #0f172a; /* Very dark blue-gray */
+    --text-primary: #f1f5f9; /* Near-white */
+    --text-secondary: #94a3b8; /* Light gray */
+    
+    /* Dark Transparent Card Styles */
+    --card-bg: rgba(30, 41, 59, 0.4); /* Semi-transparent dark slate */
+    --card-border: rgba(255, 255, 255, 0.08);
+
+    --chart-grid: rgba(255, 255, 255, 0.05);
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--text-primary);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+}
+
+@layer components {
+  .glass-card {
+    background: var(--card-bg);
+    backdrop-filter: blur(12px); 
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--card-border);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15); 
+}
+}
