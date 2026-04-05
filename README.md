@@ -1,4 +1,4 @@
-<img width="1920" height="1200" alt="Screenshot (204)" src="https://github.com/user-attachments/assets/e99cc326-5880-464e-874d-55e07fd0b7c8" />FinFlow | Modern Financial Dashboard
+FinFlow | Modern Financial Dashboard
 
 FinFlow is a high-performance, transparent "Glassmorphism" dashboard built with React and Tailwind CSS v4. It allows users to track their financial health, visualize spending patterns, and manage transactions with a role-based interface.
 
